@@ -3,15 +3,21 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
+    background: #dddbdb;
 }
-
+.section-title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    color: #562EFF;
+    padding-top: 30px;
+    padding-left: 30px;
+}
 /* Default CSS */
 .container{
     width: 1000px;
     margin: auto;
-
 }
-
 /* Top header Style */
 .header {
     background: #562EFF;
@@ -51,3 +57,34 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+/* Top Player Style */
+.top-Player {
+    background: #fff;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+.all-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.player-details {
+    display: flex;
+    align-items: center;
+}
+.player-details img {
+    width: 56px;
+    height: 56px;
+}
+.player-details p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #000;
+    margin-left: 16px;
+}
+
