@@ -1,0 +1,29 @@
+@media only screen and (min-width:688px) {
+    .container {
+        width: 700px;
+        margin: auto;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 25px;
+    }
+    .blog-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-details img {
+        width: 130px;
+        height: 87px;
+    }
+    .blog-info {
+        width: 180px;
+    }
+    .all-course {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 45%;
+    }
+}
